@@ -47,6 +47,11 @@ a {
   text-decoration: none;
 }
 
+.iconAdj {
+  font-size: 72px;
+  color: #626262;
+}
+
 .navigator {
   position: relative;
   z-index: 1;
@@ -412,7 +417,7 @@ a {
 }
 
 .paragraph_col {
-  width: 70%;
+  width: 90%;
   min-height: 48%;
   line-height: 25px;
   text-align: center;
