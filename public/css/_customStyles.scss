@@ -1,0 +1,23 @@
+.custom-heading {
+  margin: 0 0 0.8em 0;
+}
+
+.container.custom-video-box {
+  margin: 6% 3%;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container.custom-video-box {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container.custom-video-box {
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}

@@ -1,3 +1,5 @@
+@import '_customStyles';
+
 body {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #626262;
@@ -1952,12 +1954,11 @@ a {
     background-repeat: repeat, repeat;
   }
   .hero.betteropportunities {
-    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url('../images/better_opportunities-min.jpg');
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url('../images/better_opportunities-min.jpg');
-    background-position: 0px 0px, 50% 0px;
-    background-size: auto, cover;
+    background-image: url('../images/better_opportunities-min.jpg');
+    background-position: center;
+    background-size: cover;
     position: relative;
-    background-repeat: repeat, repeat;
+    background-repeat: no-repeat;
   }
   .herotext {
     font-size: 1.4em;
