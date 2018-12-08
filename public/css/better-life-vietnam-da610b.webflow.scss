@@ -1,3 +1,5 @@
+@import '_customStyles';
+
 body {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #626262;
@@ -45,6 +47,11 @@ p {
 a {
   color: #02b168;
   text-decoration: none;
+}
+
+.iconAdj {
+  font-size: 72px;
+  color: #626262;
 }
 
 .navigator {
@@ -412,7 +419,7 @@ a {
 }
 
 .paragraph_col {
-  width: 70%;
+  width: 90%;
   min-height: 48%;
   line-height: 25px;
   text-align: center;
@@ -1554,6 +1561,7 @@ a {
 .video-block {
   width: 100%;
   height: 100%;
+  padding-bottom: 20px;
 }
 
 .picture-card-column {
@@ -1814,9 +1822,9 @@ a {
     font-size: 1em;
   }
   .col_33 {
-    height: 320px;
+    // height: 320px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 60px;
   }
   .col_33.short-col {
     height: 200px;
@@ -1834,7 +1842,8 @@ a {
     height: 400px;
   }
   .col_display_flex_vertical.small-device-height {
-    height: 300px;
+    // height: 300px;
+    height: 100%;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
@@ -1945,12 +1954,11 @@ a {
     background-repeat: repeat, repeat;
   }
   .hero.betteropportunities {
-    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url('../images/better_opportunities-min.jpg');
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url('../images/better_opportunities-min.jpg');
-    background-position: 0px 0px, 50% 0px;
-    background-size: auto, cover;
+    background-image: url('../images/better_opportunities-min.jpg');
+    background-position: center;
+    background-size: cover;
     position: relative;
-    background-repeat: repeat, repeat;
+    background-repeat: no-repeat;
   }
   .herotext {
     font-size: 1.4em;
@@ -1983,7 +1991,8 @@ a {
     height: 550px;
   }
   .col_display_flex_vertical.small-device-height {
-    height: 180px;
+    // height: 180px;
+    height: 100%;
   }
   .water-img {
     height: 80%;
